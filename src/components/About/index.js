@@ -15,25 +15,42 @@ function About() {
 			</div>
 			<div>
 				<p>
-				BIO
+				Beginner Frontend Developer looking to expand my repotoire and knowlegde of React and other technologies. Likes reading, gaming, my cat Sopha, and all manner of food and drink!
 				</p>
 				<p>
-					Full stack project{' '}
+					{' '}
 					<a
 						href="https://github.com/omarvalsam/Mental-Breakdown.git"
 						target="_blank">
-						develop
+						Mental Breakdown:
 					</a>{' '}
-					a{' '}
+					A{' '}
 					<a
 						href="Heroku link to project 2"
 						target="_blank">
 					</a>{' '}
-					A task manager featuring user authentication, 
+					task manager featuring user authentication, 
 					collaborative user efforts, and more!
 				</p>
 				<p>
-					Stats for Nerdz{' '}
+					{' '}
+					<a
+						href="https://chermill93.github.io/InteractiveFrontEndProject/"
+						target="_blank">
+						Stats for Nerdz:
+					</a>{' '}
+					{' '}
+					<a
+						href="Heroku link to project 2"
+						target="_blank">
+					</a>{' '}
+					My team and I created a fun project that is used by gamers, 
+					specifically Apex legends gamers. 
+					They can use this app to list basic stats 
+					to show them what they lack or need to improve.
+				</p>
+				{/* <p>
+					Stats for Nerdz: {' '}
 					<a
 						href="https://github.com/CherMill93/InteractiveFrontEndProject.git"
 						target="_blank">
@@ -47,7 +64,7 @@ function About() {
 					specifically Apex legends gamers. 
 					They can use this app to list basic stats 
 					to show them what they lack or need to improve.
-				</p>
+				</p> */}
 			</div>
 		</section>
 	);
