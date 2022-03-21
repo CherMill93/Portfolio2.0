@@ -5,15 +5,15 @@ main {
 }
 
 :root {
-	--primary: #499167;
-	--secondary: #2E282A;
+	--aboutMe: #eb5530;
+	--header: #6e6065;
 	--tertiary: #f0f2a6;
 	--quaternary: #39a9db;
-	--quinary: #bfd7ea;
+	--quinary: #062036;
 	--light: #bfd7ea;
-	--dark: #353831;
-	--darker: #39a9db;
-	--error: rgb(228, 46, 1);
+	--dark: #6379da;
+	--darker: #204c61;
+	--error: rgb(70, 149, 223);
 	--spacing-one: calc(1rem * 0.5);
 	--spacing-two: calc(1rem);
 	--spacing-five: calc(2.5rem);
@@ -98,7 +98,7 @@ a:hover {
 }
 
 header {
-	background: var(--secondary);
+	background: var(--header);
 	display: flex;
 	justify-content: space-between;
 	padding: 1rem;
@@ -154,7 +154,7 @@ input {
 }
 
 input:focus {
-	border: 1px solid var(--secondary);
+	border: 1px solid var(--header);
 	box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -281,7 +281,7 @@ textarea {
 }
 
 .navActive {
-	color: var(--primary);
+	color: var(--aboutMe);
 }
 
 .footer {

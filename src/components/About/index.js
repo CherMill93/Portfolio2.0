@@ -7,16 +7,18 @@ function About() {
 				<h1 className="page-header">About Me</h1>
 			</div>
 			<div className="center">
-				{/* <img
-					src={require('../../assets/images/recent-photo.jpg')}
+				<img
+					src={require('../../assets/images/portrait.jpg')}
 					alt="about-me"
 					className="photo"
-				/> */}
+				/>
 			</div>
 			<div>
-				<p>
-				Beginner Frontend Developer looking to expand my repotoire and knowlegde of React and other technologies. Likes reading, gaming, my cat Sopha, and all manner of food and drink!
+				<p> 
+					{/* bio */}
+				Beginner Frontend Developer looking to expand my repotoire and knowlegde of React and other technologies. Likes reading, gaming, my cat Sopha, and all manner of food and drink! See my major projects below.
 				</p>
+				
 				<p>
 					{' '}
 					<a
@@ -32,6 +34,7 @@ function About() {
 					task manager featuring user authentication, 
 					collaborative user efforts, and more!
 				</p>
+
 				<p>
 					{' '}
 					<a
@@ -49,22 +52,7 @@ function About() {
 					They can use this app to list basic stats 
 					to show them what they lack or need to improve.
 				</p>
-				{/* <p>
-					Stats for Nerdz: {' '}
-					<a
-						href="https://github.com/CherMill93/InteractiveFrontEndProject.git"
-						target="_blank">
-					</a>{' '}
-					a{' '}
-					<a
-						href="https://chermill93.github.io/InteractiveFrontEndProject/"
-						target="_blank">
-					</a>{' '}
-					We have created a fun project that is used for gamers, 
-					specifically Apex legends gamers. 
-					They can use this app to list basic stats 
-					to show them what they lack or need to improve.
-				</p> */}
+
 			</div>
 		</section>
 	);
