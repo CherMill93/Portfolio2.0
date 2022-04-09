@@ -61,7 +61,7 @@ function About() {
 					</a>{' '}
 					{' '}
 					<a
-						href="https://arcane-hamlet-39116.herokuapp.com/signup"
+						href="https://arcane-hamlet-39116.herokuapp.com/"
 						target="_blank">
 						EMR:
 					</a>{' '}
