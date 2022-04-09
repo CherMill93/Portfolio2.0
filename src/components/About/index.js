@@ -53,6 +53,25 @@ function About() {
 					to show them what they lack or need to improve.
 				</p>
 
+				<p>
+					{' '}
+					<a
+						href="https://github.com/Sarabarnett/medical-records-app.git"
+						target="_blank">
+					</a>{' '}
+					{' '}
+					<a
+						href="https://arcane-hamlet-39116.herokuapp.com/signup"
+						target="_blank">
+						EMR:
+					</a>{' '}
+								We at O'CSS believe that patient ease should be at the forefront of the medical experience.
+                <br></br>
+                That is why we created EMR:
+                <br></br>
+                A Full-Stack MERN storage app specifically designed to house all of the confidential health information that you have cumulated over your many years as a patient.
+				</p>
+
 			</div>
 		</section>
 	);
